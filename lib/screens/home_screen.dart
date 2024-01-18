@@ -41,10 +41,13 @@ String items = "";
 
                         // MyInputValue(content);
                       },
-                      decoration: AppInput(
+                      decoration: appInput(
                           "Item name", "Item")
                   ),
                 ),
+
+
+
                 Expanded(
                     flex: 3,
                     child: Padding(
